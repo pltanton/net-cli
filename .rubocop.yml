@@ -1,2 +1,6 @@
 AllCops:
   TargetRubyVersion: 2.3
+
+[Metrics/ParameterLists, Metrics/MethodLength]:
+  Exclude:
+    - 'lib/net_cli/template_generator.rb'
